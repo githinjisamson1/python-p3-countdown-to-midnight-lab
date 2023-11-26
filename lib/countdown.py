@@ -18,6 +18,7 @@ def countdown(count):
 def countdown_with_sleep(count):
     
     while count > 0:
+        # pause each iteration for 1 sec
         time.sleep(1)
         print(f"{count} SECOND(S)!")
         count -= 1
